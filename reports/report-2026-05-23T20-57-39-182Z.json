@@ -1,0 +1,239 @@
+{
+  "run": {
+    "now": "2026-05-23T20:57:39.182Z",
+    "local": "24 May 2026, 02:27:39",
+    "stamp": "2026-05-23T20-57-39-182Z"
+  },
+  "baseUrl": "https://sameer-local-azure.sameersaurabh.xyz",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "ms": 2893,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Live Feed DISCONNECTED 0 events ALL0 NSE0 PIB0 RBI0 SEBI0 No events yet. Run the pipeline to ingest data."
+    },
+    {
+      "route": "/settings",
+      "status": 200,
+      "ms": 2117,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Settings Configure how the live feed behaves for this browser. Settings are stored locally (no account required). SOURCE SUBSCRIPTIONS Pick which sources appear in your live "
+    },
+    {
+      "route": "/monitoring",
+      "status": 200,
+      "ms": 1610,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Monitoring WIRE EVENTS 1,401 ACTIVE SOURCES 4 PIB RECORDS 65 NSE RECORDS 1,293 RBI RECORDS 29 SEBI RECORDS 40 SOURCE HEALTH SOURCE EVENTS CATEGORIES LATEST EVENT FIRST EVENT "
+    },
+    {
+      "route": "/admin",
+      "status": 200,
+      "ms": 1300,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Admin — Source Configuration NSE ENABLED Updated 24/5/2026, 12:46:51 am by admin-api FETCH STRATEGY PARSER STRATEGY SCHEDULE — ACTIVE WINDOW Start → End Cadence (s) IDLE CADE"
+    }
+  ],
+  "adminPublic": true,
+  "feed": {
+    "initial": {
+      "label": "initial",
+      "statusText": "LIVE",
+      "eventCount": 74,
+      "eventLinkCount": 74,
+      "nseEventCount": 47,
+      "nonNseVisibleCount": 27,
+      "newestNse": {
+        "href": "https://sameer-local-azure.sameersaurabh.xyz/event/94c2fb52-4461-41e2-8d36-1851e6992bc1",
+        "text": "NSE NSE-equities [en] SOLARWORLD Resignation Solarworld Energy Solutions Limited has informed the Exchange regarding Resignation of Ms. Rini Chordia as Non- Executive Independent Director of the company w.e.f. May 26, 2026. lang:en segment:equities 01:17:59 24 May 2026",
+        "isNse": true
+      },
+      "buttons": [
+        {
+          "text": "ALL74",
+          "title": "Show all subscribed sources",
+          "ariaLabel": ""
+        },
+        {
+          "text": "NSE47",
+          "title": "Show only NSE",
+          "ariaLabel": ""
+        },
+        {
+          "text": "PIB25",
+          "title": "Show only PIB",
+          "ariaLabel": ""
+        },
+        {
+          "text": "RBI1",
+          "title": "Show only RBI",
+          "ariaLabel": ""
+        },
+        {
+          "text": "SEBI1",
+          "title": "Show only SEBI",
+          "ariaLabel": ""
+        }
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "cls": 0.0001237795229311343,
+      "longTaskCount": 0,
+      "maxLongTaskMs": 0,
+      "navigation": {
+        "domContentLoadedMs": 283,
+        "loadEventMs": 284,
+        "responseEndMs": 268,
+        "transferSize": 3351,
+        "encodedBodySize": 3051,
+        "decodedBodySize": 9567
+      },
+      "feedLoadMs": 7922
+    },
+    "nseFilter": {
+      "label": "nse filter",
+      "statusText": "LIVE",
+      "eventCount": 47,
+      "eventLinkCount": 47,
+      "nseEventCount": 47,
+      "nonNseVisibleCount": 0,
+      "newestNse": {
+        "href": "https://sameer-local-azure.sameersaurabh.xyz/event/94c2fb52-4461-41e2-8d36-1851e6992bc1",
+        "text": "NSE NSE-equities [en] SOLARWORLD Resignation Solarworld Energy Solutions Limited has informed the Exchange regarding Resignation of Ms. Rini Chordia as Non- Executive Independent Director of the company w.e.f. May 26, 2026. lang:en segment:equities 01:17:59 24 May 2026",
+        "isNse": true
+      },
+      "buttons": [
+        {
+          "text": "ALL74",
+          "title": "Show all subscribed sources",
+          "ariaLabel": ""
+        },
+        {
+          "text": "NSE47",
+          "title": "Click to clear (show all)",
+          "ariaLabel": ""
+        },
+        {
+          "text": "PIB25",
+          "title": "Show only PIB",
+          "ariaLabel": ""
+        },
+        {
+          "text": "RBI1",
+          "title": "Show only RBI",
+          "ariaLabel": ""
+        },
+        {
+          "text": "SEBI1",
+          "title": "Show only SEBI",
+          "ariaLabel": ""
+        }
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "cls": 0.0001237795229311343,
+      "longTaskCount": 0,
+      "maxLongTaskMs": 0,
+      "navigation": {
+        "domContentLoadedMs": 283,
+        "loadEventMs": 284,
+        "responseEndMs": 268,
+        "transferSize": 3351,
+        "encodedBodySize": 3051,
+        "decodedBodySize": 9567
+      },
+      "settleMs": 2605
+    }
+  },
+  "eventDetail": {
+    "url": "https://sameer-local-azure.sameersaurabh.xyz/event/94c2fb52-4461-41e2-8d36-1851e6992bc1",
+    "status": 200,
+    "loadMs": 2082,
+    "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 ← Back to feed NSE NSE-equities corporate_filing [en] Resignation Published: 24/5/2026, 1:17:59 am Status: complete Kind: live ENTITY Solarworld Energy Solutions LimitedSOLARWORLDINE0TY101024 Solarworld Energy Solu"
+  },
+  "mobile": {
+    "eventLinkCount": 74,
+    "horizontalOverflow": false,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "firstEventWidth": 166,
+    "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Live Feed LIVE 74 events ALL74 NSE47 PIB25 RBI1 SEBI1 NSE NSE-equities [en] SOLARWORLD Resignation Solarworld Energy Solutions Limited has informed the Exchange regarding Resignation of Ms. Rini Chordia as Non- Exe",
+    "screenshotPath": "reports/mobile-2026-05-23T20-57-39-182Z.png"
+  },
+  "consoleIssues": [],
+  "network": {
+    "expectedAbortions": [
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/settings?_rsc=prFqFEkjx4kukZuv",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/monitoring?_rsc=kBgRyqCfxfKMAoNm",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0w3h3qz0xhj2x.js",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/settings?_rsc=7h4NYy5eoyMcNlUN",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/monitoring?_rsc=fWmo_IzyBfS8VAXr",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/api/wire/events?source=NSE%2CPIB%2CRBI%2CSEBI&date=today",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0330gm6~4xhd~.js",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/a160b7ef-1bef-4ad4-b971-09cb761cf15c?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/a160b7ef-1bef-4ad4-b971-09cb761cf15c?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/0e04cd43-60b1-4907-92fd-e4cf556f8356?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/caed15aa-b8a6-457e-b8f9-261f20cc1baa?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/api/stream/live?source=NSE%2CPIB%2CRBI%2CSEBI",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "realFailures": []
+  },
+  "verdict": {
+    "status": "ISSUES FOUND",
+    "issues": [
+      "Mobile NSE/feed card width is only 166px, so rendering is squeezed.",
+      "/admin is publicly accessible."
+    ]
+  }
+}
