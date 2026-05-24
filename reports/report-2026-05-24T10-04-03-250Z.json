@@ -1,0 +1,239 @@
+{
+  "run": {
+    "now": "2026-05-24T10:04:03.250Z",
+    "local": "24 May 2026, 15:34:03",
+    "stamp": "2026-05-24T10-04-03-250Z"
+  },
+  "baseUrl": "https://sameer-local-azure.sameersaurabh.xyz",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "ms": 1905,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Live Feed DISCONNECTED 0 events ALL0 NSE0 PIB0 RBI0 SEBI0 No events yet. Run the pipeline to ingest data."
+    },
+    {
+      "route": "/settings",
+      "status": 200,
+      "ms": 1822,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Settings Configure how the live feed behaves for this browser. Settings are stored locally (no account required). SOURCE SUBSCRIPTIONS Pick which sources appear in your live "
+    },
+    {
+      "route": "/monitoring",
+      "status": 200,
+      "ms": 1296,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Monitoring WIRE EVENTS 1,451 ACTIVE SOURCES 4 PIB RECORDS 73 NSE RECORDS 1,335 RBI RECORDS 29 SEBI RECORDS 40 SOURCE HEALTH SOURCE EVENTS CATEGORIES LATEST EVENT FIRST EVENT "
+    },
+    {
+      "route": "/admin",
+      "status": 200,
+      "ms": 1300,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Admin — Source Configuration NSE ENABLED Updated 24/5/2026, 12:46:51 am by admin-api FETCH STRATEGY PARSER STRATEGY SCHEDULE — ACTIVE WINDOW Start → End Cadence (s) IDLE CADE"
+    }
+  ],
+  "adminPublic": true,
+  "feed": {
+    "initial": {
+      "label": "initial",
+      "statusText": "LIVE",
+      "eventCount": 69,
+      "eventLinkCount": 69,
+      "nseEventCount": 47,
+      "nonNseVisibleCount": 22,
+      "newestNse": {
+        "href": "https://sameer-local-azure.sameersaurabh.xyz/event/911692e8-f019-41aa-a85f-7a2fcdec31b1",
+        "text": "NSE NSE-equities [en] MMFL General Updates MM Forgings Limited has informed the Exchange about Update on Board Meeting lang:en segment:equities industry:Castings/Forgings 15:14:58 24 May 2026",
+        "isNse": true
+      },
+      "buttons": [
+        {
+          "text": "ALL69",
+          "title": "Show all subscribed sources",
+          "ariaLabel": ""
+        },
+        {
+          "text": "NSE47",
+          "title": "Show only NSE",
+          "ariaLabel": ""
+        },
+        {
+          "text": "PIB22",
+          "title": "Show only PIB",
+          "ariaLabel": ""
+        },
+        {
+          "text": "RBI0",
+          "title": "Show only RBI",
+          "ariaLabel": ""
+        },
+        {
+          "text": "SEBI0",
+          "title": "Show only SEBI",
+          "ariaLabel": ""
+        }
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "cls": 0.0001237795229311343,
+      "longTaskCount": 0,
+      "maxLongTaskMs": 0,
+      "navigation": {
+        "domContentLoadedMs": 303,
+        "loadEventMs": 303,
+        "responseEndMs": 286,
+        "transferSize": 3351,
+        "encodedBodySize": 3051,
+        "decodedBodySize": 9567
+      },
+      "feedLoadMs": 7919
+    },
+    "nseFilter": {
+      "label": "nse filter",
+      "statusText": "LIVE",
+      "eventCount": 47,
+      "eventLinkCount": 47,
+      "nseEventCount": 47,
+      "nonNseVisibleCount": 0,
+      "newestNse": {
+        "href": "https://sameer-local-azure.sameersaurabh.xyz/event/911692e8-f019-41aa-a85f-7a2fcdec31b1",
+        "text": "NSE NSE-equities [en] MMFL General Updates MM Forgings Limited has informed the Exchange about Update on Board Meeting lang:en segment:equities industry:Castings/Forgings 15:14:58 24 May 2026",
+        "isNse": true
+      },
+      "buttons": [
+        {
+          "text": "ALL69",
+          "title": "Show all subscribed sources",
+          "ariaLabel": ""
+        },
+        {
+          "text": "NSE47",
+          "title": "Click to clear (show all)",
+          "ariaLabel": ""
+        },
+        {
+          "text": "PIB22",
+          "title": "Show only PIB",
+          "ariaLabel": ""
+        },
+        {
+          "text": "RBI0",
+          "title": "Show only RBI",
+          "ariaLabel": ""
+        },
+        {
+          "text": "SEBI0",
+          "title": "Show only SEBI",
+          "ariaLabel": ""
+        }
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "cls": 0.0001237795229311343,
+      "longTaskCount": 0,
+      "maxLongTaskMs": 0,
+      "navigation": {
+        "domContentLoadedMs": 303,
+        "loadEventMs": 303,
+        "responseEndMs": 286,
+        "transferSize": 3351,
+        "encodedBodySize": 3051,
+        "decodedBodySize": 9567
+      },
+      "settleMs": 2587
+    }
+  },
+  "eventDetail": {
+    "url": "https://sameer-local-azure.sameersaurabh.xyz/event/911692e8-f019-41aa-a85f-7a2fcdec31b1",
+    "status": 200,
+    "loadMs": 1300,
+    "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 ← Back to feed NSE NSE-equities corporate_filing [en] General Updates Published: 24/5/2026, 3:14:58 pm Status: complete Kind: live ENTITY MM Forgings LimitedMMFLINE227C01017 MM Forgings Limited has informed the Exc"
+  },
+  "mobile": {
+    "eventLinkCount": 69,
+    "horizontalOverflow": false,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "firstEventWidth": 166,
+    "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Live Feed LIVE 69 events ALL69 NSE47 PIB22 RBI0 SEBI0 NSE NSE-equities [en] MMFL General Updates MM Forgings Limited has informed the Exchange about Update on Board Meeting lang:en segment:equities industry:Casting",
+    "screenshotPath": "reports/mobile-2026-05-24T10-04-03-250Z.png"
+  },
+  "consoleIssues": [],
+  "network": {
+    "expectedAbortions": [
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/api/stream/live?source=NSE%2CPIB%2CRBI%2CSEBI",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0330gm6~4xhd~.js",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/009~c~2g5i05-.js",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/?_rsc=8nTjltbQWvg6NcbE",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/636316f3-37b0-4954-8913-0debbe37a71a?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/dab814d0-3d74-4a30-9db9-d15cdf6ad137?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/049b4211-2e0b-42fd-88c5-f79f84575956?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/049b4211-2e0b-42fd-88c5-f79f84575956?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/049b4211-2e0b-42fd-88c5-f79f84575956?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/adfd1675-be64-4ddb-b787-27267efa6ff6?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/911692e8-f019-41aa-a85f-7a2fcdec31b1?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/api/stream/live?source=NSE%2CPIB%2CRBI%2CSEBI",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "realFailures": []
+  },
+  "verdict": {
+    "status": "ISSUES FOUND",
+    "issues": [
+      "Mobile NSE/feed card width is only 166px, so rendering is squeezed.",
+      "/admin is publicly accessible."
+    ]
+  }
+}
