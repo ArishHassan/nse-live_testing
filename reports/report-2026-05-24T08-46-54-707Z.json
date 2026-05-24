@@ -1,0 +1,259 @@
+{
+  "run": {
+    "now": "2026-05-24T08:46:54.707Z",
+    "local": "24 May 2026, 14:16:54",
+    "stamp": "2026-05-24T08-46-54-707Z"
+  },
+  "baseUrl": "https://sameer-local-azure.sameersaurabh.xyz",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "ms": 2930,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Live Feed DISCONNECTED 0 events ALL0 NSE0 PIB0 RBI0 SEBI0 No events yet. Run the pipeline to ingest data."
+    },
+    {
+      "route": "/settings",
+      "status": 200,
+      "ms": 1348,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Settings Configure how the live feed behaves for this browser. Settings are stored locally (no account required). SOURCE SUBSCRIPTIONS Pick which sources appear in your live "
+    },
+    {
+      "route": "/monitoring",
+      "status": 200,
+      "ms": 1280,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Monitoring WIRE EVENTS 1,443 ACTIVE SOURCES 4 PIB RECORDS 71 NSE RECORDS 1,329 RBI RECORDS 29 SEBI RECORDS 40 SOURCE HEALTH SOURCE EVENTS CATEGORIES LATEST EVENT FIRST EVENT "
+    },
+    {
+      "route": "/admin",
+      "status": 200,
+      "ms": 1295,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Admin — Source Configuration NSE ENABLED Updated 24/5/2026, 12:46:51 am by admin-api FETCH STRATEGY PARSER STRATEGY SCHEDULE — ACTIVE WINDOW Start → End Cadence (s) IDLE CADE"
+    }
+  ],
+  "adminPublic": true,
+  "feed": {
+    "initial": {
+      "label": "initial",
+      "statusText": "LIVE",
+      "eventCount": 67,
+      "eventLinkCount": 67,
+      "nseEventCount": 47,
+      "nonNseVisibleCount": 20,
+      "newestNse": {
+        "href": "https://sameer-local-azure.sameersaurabh.xyz/event/73d5fd10-f461-4bfa-aabb-790dc01ae284",
+        "text": "NSE NSE-equities [en] KAJARIACER Appointment Kajaria Ceramics Limited has informed the Exchange regarding Appointment of Mr Parag Goel as President Operations - Gailpur Plant of the company w.e.f. May 26, 2026. lang:en segment:equities industry:Ceramics And Sanitaryware 14:11:38 24 May 2026",
+        "isNse": true
+      },
+      "buttons": [
+        {
+          "text": "ALL67",
+          "title": "Show all subscribed sources",
+          "ariaLabel": ""
+        },
+        {
+          "text": "NSE47",
+          "title": "Show only NSE",
+          "ariaLabel": ""
+        },
+        {
+          "text": "PIB20",
+          "title": "Show only PIB",
+          "ariaLabel": ""
+        },
+        {
+          "text": "RBI0",
+          "title": "Show only RBI",
+          "ariaLabel": ""
+        },
+        {
+          "text": "SEBI0",
+          "title": "Show only SEBI",
+          "ariaLabel": ""
+        }
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "cls": 0.0001237795229311343,
+      "longTaskCount": 0,
+      "maxLongTaskMs": 0,
+      "navigation": {
+        "domContentLoadedMs": 284,
+        "loadEventMs": 286,
+        "responseEndMs": 270,
+        "transferSize": 3351,
+        "encodedBodySize": 3051,
+        "decodedBodySize": 9567
+      },
+      "feedLoadMs": 7904
+    },
+    "nseFilter": {
+      "label": "nse filter",
+      "statusText": "LIVE",
+      "eventCount": 47,
+      "eventLinkCount": 47,
+      "nseEventCount": 47,
+      "nonNseVisibleCount": 0,
+      "newestNse": {
+        "href": "https://sameer-local-azure.sameersaurabh.xyz/event/73d5fd10-f461-4bfa-aabb-790dc01ae284",
+        "text": "NSE NSE-equities [en] KAJARIACER Appointment Kajaria Ceramics Limited has informed the Exchange regarding Appointment of Mr Parag Goel as President Operations - Gailpur Plant of the company w.e.f. May 26, 2026. lang:en segment:equities industry:Ceramics And Sanitaryware 14:11:38 24 May 2026",
+        "isNse": true
+      },
+      "buttons": [
+        {
+          "text": "ALL67",
+          "title": "Show all subscribed sources",
+          "ariaLabel": ""
+        },
+        {
+          "text": "NSE47",
+          "title": "Click to clear (show all)",
+          "ariaLabel": ""
+        },
+        {
+          "text": "PIB20",
+          "title": "Show only PIB",
+          "ariaLabel": ""
+        },
+        {
+          "text": "RBI0",
+          "title": "Show only RBI",
+          "ariaLabel": ""
+        },
+        {
+          "text": "SEBI0",
+          "title": "Show only SEBI",
+          "ariaLabel": ""
+        }
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "cls": 0.0001237795229311343,
+      "longTaskCount": 0,
+      "maxLongTaskMs": 0,
+      "navigation": {
+        "domContentLoadedMs": 284,
+        "loadEventMs": 286,
+        "responseEndMs": 270,
+        "transferSize": 3351,
+        "encodedBodySize": 3051,
+        "decodedBodySize": 9567
+      },
+      "settleMs": 2590
+    }
+  },
+  "eventDetail": {
+    "url": "https://sameer-local-azure.sameersaurabh.xyz/event/73d5fd10-f461-4bfa-aabb-790dc01ae284",
+    "status": 200,
+    "loadMs": 1314,
+    "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 ← Back to feed NSE NSE-equities corporate_filing [en] Appointment Published: 24/5/2026, 2:11:38 pm Status: complete Kind: live ENTITY Kajaria Ceramics LimitedKAJARIACERINE217B01028 Kajaria Ceramics Limited has info"
+  },
+  "mobile": {
+    "eventLinkCount": 67,
+    "horizontalOverflow": false,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "firstEventWidth": 166,
+    "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Live Feed LIVE 67 events ALL67 NSE47 PIB20 RBI0 SEBI0 NSE NSE-equities [en] KAJARIACER Appointment Kajaria Ceramics Limited has informed the Exchange regarding Appointment of Mr Parag Goel as President Operations -",
+    "screenshotPath": "reports/mobile-2026-05-24T08-46-54-707Z.png"
+  },
+  "consoleIssues": [],
+  "network": {
+    "expectedAbortions": [
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/settings?_rsc=7h4NYy5eoyMcNlUN",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0w3h3qz0xhj2x.js",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/f415edb1-28b5-4a84-92fa-f2b95845777c?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/monitoring?_rsc=kBgRyqCfxfKMAoNm",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/api/stream/live?source=NSE%2CPIB%2CRBI%2CSEBI",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/settings?_rsc=prFqFEkjx4kukZuv",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/855bd464-560f-48a3-855e-637e78eec98c?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/421920ee-3aa9-4ef2-96e3-fab9d1b90179?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/8eb96db3-5039-44ed-8968-d273d9fc9f70?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/73d5fd10-f461-4bfa-aabb-790dc01ae284?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/f415edb1-28b5-4a84-92fa-f2b95845777c?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/855bd464-560f-48a3-855e-637e78eec98c?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/421920ee-3aa9-4ef2-96e3-fab9d1b90179?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/904c2e71-22c9-4d9f-b2a5-0b14a1ba1524?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/8eb96db3-5039-44ed-8968-d273d9fc9f70?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/api/stream/live?source=NSE%2CPIB%2CRBI%2CSEBI",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "realFailures": []
+  },
+  "verdict": {
+    "status": "ISSUES FOUND",
+    "issues": [
+      "Mobile NSE/feed card width is only 166px, so rendering is squeezed.",
+      "/admin is publicly accessible."
+    ]
+  }
+}
