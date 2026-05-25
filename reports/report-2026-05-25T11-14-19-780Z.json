@@ -1,0 +1,254 @@
+{
+  "run": {
+    "now": "2026-05-25T11:14:19.780Z",
+    "local": "25 May 2026, 16:44:19",
+    "stamp": "2026-05-25T11-14-19-780Z"
+  },
+  "baseUrl": "https://sameer-local-azure.sameersaurabh.xyz",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "ms": 1865,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Live Feed DISCONNECTED 0 events ALL0 NSE0 PIB0 RBI0 SEBI0 No events yet. Run the pipeline to ingest data."
+    },
+    {
+      "route": "/settings",
+      "status": 200,
+      "ms": 1289,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Settings Configure how the live feed behaves for this browser. Settings are stored locally (no account required). SOURCE SUBSCRIPTIONS Pick which sources appear in your live "
+    },
+    {
+      "route": "/monitoring",
+      "status": 200,
+      "ms": 1255,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Monitoring WIRE EVENTS 2,068 ACTIVE SOURCES 4 PIB RECORDS 88 NSE RECORDS 1,954 RBI RECORDS 34 SEBI RECORDS 40 SOURCE HEALTH SOURCE EVENTS CATEGORIES LATEST EVENT FIRST EVENT "
+    },
+    {
+      "route": "/admin",
+      "status": 200,
+      "ms": 1263,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Admin — Source Configuration NSE ENABLED Updated 24/5/2026, 12:46:51 am by admin-api FETCH STRATEGY PARSER STRATEGY SCHEDULE — ACTIVE WINDOW Start → End Cadence (s) IDLE CADE"
+    }
+  ],
+  "adminPublic": true,
+  "feed": {
+    "initial": {
+      "label": "initial",
+      "statusText": "LIVE",
+      "eventCount": 65,
+      "eventLinkCount": 65,
+      "nseEventCount": 47,
+      "nonNseVisibleCount": 18,
+      "newestNse": {
+        "href": "https://sameer-local-azure.sameersaurabh.xyz/event/0b39326a-bca4-4bd0-b283-ed1681ae237d",
+        "text": "NSE NSE-equities [en] PVRINOX Resignation PVR INOX Limited has informed the Exchange regarding resignation by a SMP of the company w.e.f. May 25, 2026. lang:en segment:equities 16:43:35 25 May 2026",
+        "isNse": true
+      },
+      "buttons": [
+        {
+          "text": "ALL65",
+          "title": "Show all subscribed sources",
+          "ariaLabel": ""
+        },
+        {
+          "text": "NSE47",
+          "title": "Show only NSE",
+          "ariaLabel": ""
+        },
+        {
+          "text": "PIB13",
+          "title": "Show only PIB",
+          "ariaLabel": ""
+        },
+        {
+          "text": "RBI5",
+          "title": "Show only RBI",
+          "ariaLabel": ""
+        },
+        {
+          "text": "SEBI0",
+          "title": "Show only SEBI",
+          "ariaLabel": ""
+        }
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "cls": 0.0001237795229311343,
+      "longTaskCount": 0,
+      "maxLongTaskMs": 0,
+      "navigation": {
+        "domContentLoadedMs": 254,
+        "loadEventMs": 255,
+        "responseEndMs": 235,
+        "transferSize": 3351,
+        "encodedBodySize": 3051,
+        "decodedBodySize": 9567
+      },
+      "feedLoadMs": 7866
+    },
+    "nseFilter": {
+      "label": "nse filter",
+      "statusText": "LIVE",
+      "eventCount": 47,
+      "eventLinkCount": 47,
+      "nseEventCount": 47,
+      "nonNseVisibleCount": 0,
+      "newestNse": {
+        "href": "https://sameer-local-azure.sameersaurabh.xyz/event/0b39326a-bca4-4bd0-b283-ed1681ae237d",
+        "text": "NSE NSE-equities [en] PVRINOX Resignation PVR INOX Limited has informed the Exchange regarding resignation by a SMP of the company w.e.f. May 25, 2026. lang:en segment:equities 16:43:35 25 May 2026",
+        "isNse": true
+      },
+      "buttons": [
+        {
+          "text": "ALL65",
+          "title": "Show all subscribed sources",
+          "ariaLabel": ""
+        },
+        {
+          "text": "NSE47",
+          "title": "Click to clear (show all)",
+          "ariaLabel": ""
+        },
+        {
+          "text": "PIB13",
+          "title": "Show only PIB",
+          "ariaLabel": ""
+        },
+        {
+          "text": "RBI5",
+          "title": "Show only RBI",
+          "ariaLabel": ""
+        },
+        {
+          "text": "SEBI0",
+          "title": "Show only SEBI",
+          "ariaLabel": ""
+        }
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "cls": 0.0001237795229311343,
+      "longTaskCount": 0,
+      "maxLongTaskMs": 0,
+      "navigation": {
+        "domContentLoadedMs": 254,
+        "loadEventMs": 255,
+        "responseEndMs": 235,
+        "transferSize": 3351,
+        "encodedBodySize": 3051,
+        "decodedBodySize": 9567
+      },
+      "settleMs": 2582
+    }
+  },
+  "eventDetail": {
+    "url": "https://sameer-local-azure.sameersaurabh.xyz/event/0b39326a-bca4-4bd0-b283-ed1681ae237d",
+    "status": 200,
+    "loadMs": 1268,
+    "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 ← Back to feed NSE NSE-equities corporate_filing [en] Resignation Published: 25/5/2026, 4:43:35 pm Status: complete Kind: live ENTITY PVR INOX LimitedPVRINOXINE191H01014 PVR INOX Limited has informed the Exchange r"
+  },
+  "mobile": {
+    "eventLinkCount": 65,
+    "horizontalOverflow": false,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "firstEventWidth": 166,
+    "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Live Feed LIVE 65 events ALL65 NSE47 PIB13 RBI5 SEBI0 NSE NSE-equities [en] PVRINOX Resignation PVR INOX Limited has informed the Exchange regarding resignation by a SMP of the company w.e.f. May 25, 2026. lang:en ",
+    "screenshotPath": "reports/mobile-2026-05-25T11-14-19-780Z.png"
+  },
+  "consoleIssues": [],
+  "network": {
+    "expectedAbortions": [
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/settings?_rsc=prFqFEkjx4kukZuv",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/settings?_rsc=7h4NYy5eoyMcNlUN",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/api/stream/live?source=NSE%2CPIB%2CRBI%2CSEBI",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/monitoring?_rsc=kBgRyqCfxfKMAoNm",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/9035b2b3-e551-4a51-badc-b3781d84ba4a?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/05d1399c-8eff-42f8-b8af-39063f72d201?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/9035b2b3-e551-4a51-badc-b3781d84ba4a?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/22ad4ce0-cfa4-4f2a-8375-1e269854ff0a?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/0b39326a-bca4-4bd0-b283-ed1681ae237d?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/9035b2b3-e551-4a51-badc-b3781d84ba4a?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/05d1399c-8eff-42f8-b8af-39063f72d201?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/3f79a310-4890-42b0-92c5-34db4edb5c8f?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/0b39326a-bca4-4bd0-b283-ed1681ae237d?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/9b020d8f-8b06-4f00-b956-d64e05c139d6?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/api/stream/live?source=NSE%2CPIB%2CRBI%2CSEBI",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "realFailures": []
+  },
+  "verdict": {
+    "status": "ISSUES FOUND",
+    "issues": [
+      "Mobile NSE/feed card width is only 166px, so rendering is squeezed.",
+      "/admin is publicly accessible."
+    ]
+  }
+}
