@@ -1,0 +1,234 @@
+{
+  "run": {
+    "now": "2026-05-26T10:31:58.225Z",
+    "local": "26 May 2026, 16:01:58",
+    "stamp": "2026-05-26T10-31-58-225Z"
+  },
+  "baseUrl": "https://sameer-local-azure.sameersaurabh.xyz",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "ms": 1910,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Live Feed DISCONNECTED 0 events ALL0 NSE0 PIB0 RBI0 SEBI0 No events yet. Run the pipeline to ingest data."
+    },
+    {
+      "route": "/settings",
+      "status": 200,
+      "ms": 1366,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Settings Configure how the live feed behaves for this browser. Settings are stored locally (no account required). SOURCE SUBSCRIPTIONS Pick which sources appear in your live "
+    },
+    {
+      "route": "/monitoring",
+      "status": 200,
+      "ms": 1290,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Monitoring WIRE EVENTS 3,498 ACTIVE SOURCES 4 PIB RECORDS 133 NSE RECORDS 3,377 RBI RECORDS 39 SEBI RECORDS 53 SOURCE HEALTH SOURCE EVENTS CATEGORIES LATEST EVENT FIRST EVENT"
+    },
+    {
+      "route": "/admin",
+      "status": 200,
+      "ms": 1305,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Admin — Source Configuration NSE ENABLED Updated 24/5/2026, 12:46:51 am by admin-api FETCH STRATEGY PARSER STRATEGY SCHEDULE — ACTIVE WINDOW Start → End Cadence (s) IDLE CADE"
+    }
+  ],
+  "adminPublic": true,
+  "feed": {
+    "initial": {
+      "label": "initial",
+      "statusText": "LIVE",
+      "eventCount": 91,
+      "eventLinkCount": 91,
+      "nseEventCount": 47,
+      "nonNseVisibleCount": 44,
+      "newestNse": {
+        "href": "https://sameer-local-azure.sameersaurabh.xyz/event/8ff7defc-e065-4dea-82c4-b5dc95423f99",
+        "text": "NSE NSE-equities [en] STUDDS Acquisition Studds Accessories Limited has informed the Exchange about 'Update on Incorporation of Wholly Owned Subsidiary in Italy, Europe' lang:en segment:equities 15:57:48 26 May 2026",
+        "isNse": true
+      },
+      "buttons": [
+        {
+          "text": "ALL91",
+          "title": "Show all subscribed sources",
+          "ariaLabel": ""
+        },
+        {
+          "text": "NSE47",
+          "title": "Show only NSE",
+          "ariaLabel": ""
+        },
+        {
+          "text": "PIB25",
+          "title": "Show only PIB",
+          "ariaLabel": ""
+        },
+        {
+          "text": "RBI6",
+          "title": "Show only RBI",
+          "ariaLabel": ""
+        },
+        {
+          "text": "SEBI13",
+          "title": "Show only SEBI",
+          "ariaLabel": ""
+        }
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "cls": 0.0001267881793740355,
+      "longTaskCount": 0,
+      "maxLongTaskMs": 0,
+      "navigation": {
+        "domContentLoadedMs": 282,
+        "loadEventMs": 283,
+        "responseEndMs": 265,
+        "transferSize": 3402,
+        "encodedBodySize": 3102,
+        "decodedBodySize": 9567
+      },
+      "feedLoadMs": 7894
+    },
+    "nseFilter": {
+      "label": "nse filter",
+      "statusText": "LIVE",
+      "eventCount": 47,
+      "eventLinkCount": 47,
+      "nseEventCount": 47,
+      "nonNseVisibleCount": 0,
+      "newestNse": {
+        "href": "https://sameer-local-azure.sameersaurabh.xyz/event/8ff7defc-e065-4dea-82c4-b5dc95423f99",
+        "text": "NSE NSE-equities [en] STUDDS Acquisition Studds Accessories Limited has informed the Exchange about 'Update on Incorporation of Wholly Owned Subsidiary in Italy, Europe' lang:en segment:equities 15:57:48 26 May 2026",
+        "isNse": true
+      },
+      "buttons": [
+        {
+          "text": "ALL91",
+          "title": "Show all subscribed sources",
+          "ariaLabel": ""
+        },
+        {
+          "text": "NSE47",
+          "title": "Click to clear (show all)",
+          "ariaLabel": ""
+        },
+        {
+          "text": "PIB25",
+          "title": "Show only PIB",
+          "ariaLabel": ""
+        },
+        {
+          "text": "RBI6",
+          "title": "Show only RBI",
+          "ariaLabel": ""
+        },
+        {
+          "text": "SEBI13",
+          "title": "Show only SEBI",
+          "ariaLabel": ""
+        }
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "cls": 0.0001267881793740355,
+      "longTaskCount": 0,
+      "maxLongTaskMs": 0,
+      "navigation": {
+        "domContentLoadedMs": 282,
+        "loadEventMs": 283,
+        "responseEndMs": 265,
+        "transferSize": 3402,
+        "encodedBodySize": 3102,
+        "decodedBodySize": 9567
+      },
+      "settleMs": 2589
+    }
+  },
+  "eventDetail": {
+    "url": "https://sameer-local-azure.sameersaurabh.xyz/event/8ff7defc-e065-4dea-82c4-b5dc95423f99",
+    "status": 200,
+    "loadMs": 1304,
+    "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 ← Back to feed NSE NSE-equities corporate_filing [en] Acquisition Published: 26/5/2026, 3:57:48 pm Status: complete Kind: live ENTITY Studds Accessories LimitedSTUDDSINE00Q601028 Studds Accessories Limited has info"
+  },
+  "mobile": {
+    "eventLinkCount": 91,
+    "horizontalOverflow": false,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "firstEventWidth": 166,
+    "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Live Feed LIVE 91 events ALL91 NSE47 PIB25 RBI6 SEBI13 NSE NSE-equities [en] STUDDS Acquisition Studds Accessories Limited has informed the Exchange about 'Update on Incorporation of Wholly Owned Subsidiary in Ital",
+    "screenshotPath": "reports/mobile-2026-05-26T10-31-58-225Z.png"
+  },
+  "consoleIssues": [],
+  "network": {
+    "expectedAbortions": [
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/admin?_rsc=Y_CzAqwLPQt_TUNh",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/admin?_rsc=7h4NYy5eoyMcNlUN",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/monitoring?_rsc=fWmo_IzyBfS8VAXr",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/monitoring?_rsc=7h4NYy5eoyMcNlUN",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/fb5e9989-7d89-46c8-a279-bf898c72180d?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/a83270f7-b1ea-45f0-9d09-2acc221a1d81?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/4b2c8944-0f9c-4890-97d0-27e462eff517?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/a83270f7-b1ea-45f0-9d09-2acc221a1d81?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/8ff7defc-e065-4dea-82c4-b5dc95423f99?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/fa5b03f2-6ad3-430f-a174-f62632e3be33?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/api/stream/live?source=NSE%2CPIB%2CRBI%2CSEBI",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "realFailures": []
+  },
+  "verdict": {
+    "status": "ISSUES FOUND",
+    "issues": [
+      "Mobile NSE/feed card width is only 166px, so rendering is squeezed.",
+      "/admin is publicly accessible."
+    ]
+  }
+}
