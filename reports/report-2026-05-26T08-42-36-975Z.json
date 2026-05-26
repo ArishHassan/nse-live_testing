@@ -1,0 +1,229 @@
+{
+  "run": {
+    "now": "2026-05-26T08:42:36.975Z",
+    "local": "26 May 2026, 14:12:36",
+    "stamp": "2026-05-26T08-42-36-975Z"
+  },
+  "baseUrl": "https://sameer-local-azure.sameersaurabh.xyz",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "ms": 2066,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Live Feed DISCONNECTED 0 events ALL0 NSE0 PIB0 RBI0 SEBI0 No events yet. Run the pipeline to ingest data."
+    },
+    {
+      "route": "/settings",
+      "status": 200,
+      "ms": 1338,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Settings Configure how the live feed behaves for this browser. Settings are stored locally (no account required). SOURCE SUBSCRIPTIONS Pick which sources appear in your live "
+    },
+    {
+      "route": "/monitoring",
+      "status": 200,
+      "ms": 1327,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Monitoring WIRE EVENTS 3,285 ACTIVE SOURCES 4 PIB RECORDS 130 NSE RECORDS 3,155 RBI RECORDS 37 SEBI RECORDS 53 SOURCE HEALTH SOURCE EVENTS CATEGORIES LATEST EVENT FIRST EVENT"
+    },
+    {
+      "route": "/admin",
+      "status": 200,
+      "ms": 1310,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Admin — Source Configuration NSE ENABLED Updated 24/5/2026, 12:46:51 am by admin-api FETCH STRATEGY PARSER STRATEGY SCHEDULE — ACTIVE WINDOW Start → End Cadence (s) IDLE CADE"
+    }
+  ],
+  "adminPublic": true,
+  "feed": {
+    "initial": {
+      "label": "initial",
+      "statusText": "LIVE",
+      "eventCount": 89,
+      "eventLinkCount": 89,
+      "nseEventCount": 47,
+      "nonNseVisibleCount": 42,
+      "newestNse": {
+        "href": "https://sameer-local-azure.sameersaurabh.xyz/event/242b7313-35fd-4c56-82eb-248e68b8a92d",
+        "text": "NSE NSE-equities [en] PROSTARM Shareholders meeting Prostarm Info Systems Limited has informed the Exchange regarding Notice of Postal Ballot lang:en segment:equities 14:11:38 26 May 2026",
+        "isNse": true
+      },
+      "buttons": [
+        {
+          "text": "ALL89",
+          "title": "Show all subscribed sources",
+          "ariaLabel": ""
+        },
+        {
+          "text": "NSE47",
+          "title": "Show only NSE",
+          "ariaLabel": ""
+        },
+        {
+          "text": "PIB25",
+          "title": "Show only PIB",
+          "ariaLabel": ""
+        },
+        {
+          "text": "RBI4",
+          "title": "Show only RBI",
+          "ariaLabel": ""
+        },
+        {
+          "text": "SEBI13",
+          "title": "Show only SEBI",
+          "ariaLabel": ""
+        }
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "cls": 0.0001267881793740355,
+      "longTaskCount": 0,
+      "maxLongTaskMs": 0,
+      "navigation": {
+        "domContentLoadedMs": 302,
+        "loadEventMs": 303,
+        "responseEndMs": 287,
+        "transferSize": 3351,
+        "encodedBodySize": 3051,
+        "decodedBodySize": 9567
+      },
+      "feedLoadMs": 7920
+    },
+    "nseFilter": {
+      "label": "nse filter",
+      "statusText": "LIVE",
+      "eventCount": 47,
+      "eventLinkCount": 47,
+      "nseEventCount": 47,
+      "nonNseVisibleCount": 0,
+      "newestNse": {
+        "href": "https://sameer-local-azure.sameersaurabh.xyz/event/242b7313-35fd-4c56-82eb-248e68b8a92d",
+        "text": "NSE NSE-equities [en] PROSTARM Shareholders meeting Prostarm Info Systems Limited has informed the Exchange regarding Notice of Postal Ballot lang:en segment:equities 14:11:38 26 May 2026",
+        "isNse": true
+      },
+      "buttons": [
+        {
+          "text": "ALL89",
+          "title": "Show all subscribed sources",
+          "ariaLabel": ""
+        },
+        {
+          "text": "NSE47",
+          "title": "Click to clear (show all)",
+          "ariaLabel": ""
+        },
+        {
+          "text": "PIB25",
+          "title": "Show only PIB",
+          "ariaLabel": ""
+        },
+        {
+          "text": "RBI4",
+          "title": "Show only RBI",
+          "ariaLabel": ""
+        },
+        {
+          "text": "SEBI13",
+          "title": "Show only SEBI",
+          "ariaLabel": ""
+        }
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "cls": 0.0001267881793740355,
+      "longTaskCount": 0,
+      "maxLongTaskMs": 0,
+      "navigation": {
+        "domContentLoadedMs": 302,
+        "loadEventMs": 303,
+        "responseEndMs": 287,
+        "transferSize": 3351,
+        "encodedBodySize": 3051,
+        "decodedBodySize": 9567
+      },
+      "settleMs": 2589
+    }
+  },
+  "eventDetail": {
+    "url": "https://sameer-local-azure.sameersaurabh.xyz/event/242b7313-35fd-4c56-82eb-248e68b8a92d",
+    "status": 200,
+    "loadMs": 1342,
+    "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 ← Back to feed NSE NSE-equities corporate_filing [en] Shareholders meeting Published: 26/5/2026, 2:11:38 pm Status: complete Kind: live ENTITY Prostarm Info Systems LimitedPROSTARMINE0BX301013 Prostarm Info Systems"
+  },
+  "mobile": {
+    "eventLinkCount": 89,
+    "horizontalOverflow": false,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "firstEventWidth": 166,
+    "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Live Feed LIVE 89 events ALL89 NSE47 PIB25 RBI4 SEBI13 NSE NSE-equities [en] PROSTARM Shareholders meeting Prostarm Info Systems Limited has informed the Exchange regarding Notice of Postal Ballot lang:en segment:e",
+    "screenshotPath": "reports/mobile-2026-05-26T08-42-36-975Z.png"
+  },
+  "consoleIssues": [],
+  "network": {
+    "expectedAbortions": [
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/api/wire/events?source=NSE%2CPIB%2CRBI%2CSEBI&date=today",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/monitoring?_rsc=kBgRyqCfxfKMAoNm",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/monitoring?_rsc=7h4NYy5eoyMcNlUN",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/monitoring?_rsc=fWmo_IzyBfS8VAXr",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/settings?_rsc=prFqFEkjx4kukZuv",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/495429e1-ad08-4c80-8e48-deb7dd07f184?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/8e786693-04f3-466a-a59c-39dcdb822582?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/b01bc621-84e9-4dd4-98d4-165b2f1ff331?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/1a730943-fab0-4224-b123-3e8f324e816c?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/api/stream/live?source=NSE%2CPIB%2CRBI%2CSEBI",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "realFailures": []
+  },
+  "verdict": {
+    "status": "ISSUES FOUND",
+    "issues": [
+      "Mobile NSE/feed card width is only 166px, so rendering is squeezed.",
+      "/admin is publicly accessible."
+    ]
+  }
+}
