@@ -1,0 +1,259 @@
+{
+  "run": {
+    "now": "2026-05-27T10:33:57.321Z",
+    "local": "27 May 2026, 16:03:57",
+    "stamp": "2026-05-27T10-33-57-321Z"
+  },
+  "baseUrl": "https://sameer-local-azure.sameersaurabh.xyz",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "ms": 2821,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Live Feed DISCONNECTED 0 events ALL0 NSE0 PIB0 RBI0 SEBI0 No events yet. Run the pipeline to ingest data."
+    },
+    {
+      "route": "/settings",
+      "status": 200,
+      "ms": 1424,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Settings Configure how the live feed behaves for this browser. Settings are stored locally (no account required). SOURCE SUBSCRIPTIONS Pick which sources appear in your live "
+    },
+    {
+      "route": "/monitoring",
+      "status": 200,
+      "ms": 1302,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Monitoring WIRE EVENTS 4,362 ACTIVE SOURCES 4 PIB RECORDS 178 NSE RECORDS 4,260 RBI RECORDS 44 SEBI RECORDS 60 SOURCE HEALTH SOURCE EVENTS CATEGORIES LATEST EVENT FIRST EVENT"
+    },
+    {
+      "route": "/admin",
+      "status": 200,
+      "ms": 1296,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Admin — Source Configuration NSE ENABLED Updated 27/5/2026, 4:02:38 pm by admin-api FETCH STRATEGY PARSER STRATEGY SCHEDULE — ACTIVE WINDOW Start → End Cadence (s) IDLE CADEN"
+    }
+  ],
+  "adminPublic": true,
+  "feed": {
+    "initial": {
+      "label": "initial",
+      "statusText": "LIVE",
+      "eventCount": 81,
+      "eventLinkCount": 81,
+      "nseEventCount": 10,
+      "nonNseVisibleCount": 71,
+      "newestNse": {
+        "href": "https://sameer-local-azure.sameersaurabh.xyz/event/c0beea94-2930-43ec-874b-203c8519ea8a",
+        "text": "NSE NSE-sme [en] SURANI Change in Auditors Surani Steel Tubes Limited has informed the Exchange regarding Change in Auditors of the company. lang:en segment:sme 16:03:18 27 May 2026",
+        "isNse": true
+      },
+      "buttons": [
+        {
+          "text": "ALL81",
+          "title": "Show all subscribed sources",
+          "ariaLabel": ""
+        },
+        {
+          "text": "NSE10",
+          "title": "Show only NSE",
+          "ariaLabel": ""
+        },
+        {
+          "text": "PIB25",
+          "title": "Show only PIB",
+          "ariaLabel": ""
+        },
+        {
+          "text": "RBI21",
+          "title": "Show only RBI",
+          "ariaLabel": ""
+        },
+        {
+          "text": "SEBI25",
+          "title": "Show only SEBI",
+          "ariaLabel": ""
+        }
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "cls": 0.00017256100501543208,
+      "longTaskCount": 0,
+      "maxLongTaskMs": 0,
+      "navigation": {
+        "domContentLoadedMs": 295,
+        "loadEventMs": 295,
+        "responseEndMs": 278,
+        "transferSize": 3349,
+        "encodedBodySize": 3049,
+        "decodedBodySize": 9567
+      },
+      "feedLoadMs": 7902
+    },
+    "nseFilter": {
+      "label": "nse filter",
+      "statusText": "LIVE",
+      "eventCount": 10,
+      "eventLinkCount": 10,
+      "nseEventCount": 10,
+      "nonNseVisibleCount": 0,
+      "newestNse": {
+        "href": "https://sameer-local-azure.sameersaurabh.xyz/event/c0beea94-2930-43ec-874b-203c8519ea8a",
+        "text": "NSE NSE-sme [en] SURANI Change in Auditors Surani Steel Tubes Limited has informed the Exchange regarding Change in Auditors of the company. lang:en segment:sme 16:03:18 27 May 2026",
+        "isNse": true
+      },
+      "buttons": [
+        {
+          "text": "ALL81",
+          "title": "Show all subscribed sources",
+          "ariaLabel": ""
+        },
+        {
+          "text": "NSE10",
+          "title": "Click to clear (show all)",
+          "ariaLabel": ""
+        },
+        {
+          "text": "PIB25",
+          "title": "Show only PIB",
+          "ariaLabel": ""
+        },
+        {
+          "text": "RBI21",
+          "title": "Show only RBI",
+          "ariaLabel": ""
+        },
+        {
+          "text": "SEBI25",
+          "title": "Show only SEBI",
+          "ariaLabel": ""
+        }
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "cls": 0.00017256100501543208,
+      "longTaskCount": 0,
+      "maxLongTaskMs": 0,
+      "navigation": {
+        "domContentLoadedMs": 295,
+        "loadEventMs": 295,
+        "responseEndMs": 278,
+        "transferSize": 3349,
+        "encodedBodySize": 3049,
+        "decodedBodySize": 9567
+      },
+      "settleMs": 2580
+    }
+  },
+  "eventDetail": {
+    "url": "https://sameer-local-azure.sameersaurabh.xyz/event/c0beea94-2930-43ec-874b-203c8519ea8a",
+    "status": 200,
+    "loadMs": 1346,
+    "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 ← Back to feed NSE NSE-sme corporate_filing [en] Change in Auditors Published: 27/5/2026, 4:03:18 pm Status: complete Kind: live ENTITY Surani Steel Tubes LimitedSURANI Surani Steel Tubes Limited has informed the E"
+  },
+  "mobile": {
+    "eventLinkCount": 81,
+    "horizontalOverflow": false,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "firstEventWidth": 166,
+    "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Live Feed LIVE 81 events ALL81 NSE10 PIB25 RBI21 SEBI25 NSE NSE-equities [en] HIKAL Outcome of Board Meeting Hikal Limited has submitted to the Exchange, the financial results for the period ended March 31, 2026. l",
+    "screenshotPath": "reports/mobile-2026-05-27T10-33-57-321Z.png"
+  },
+  "consoleIssues": [],
+  "network": {
+    "expectedAbortions": [
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/settings?_rsc=DROqpzYuhFJcAG-b",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/monitoring?_rsc=kBgRyqCfxfKMAoNm",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/?_rsc=8nTjltbQWvg6NcbE",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/settings?_rsc=7h4NYy5eoyMcNlUN",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/1fa44c2d-9245-4f63-a64c-7310a6586620?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/4bc4edbd-f9cc-4164-9851-83aba1320599?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/a8353472-2086-4eb4-9855-b110fcb154f6?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/7a4ec4c8-d39d-401a-91b1-94289d181bfa?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/c0beea94-2930-43ec-874b-203c8519ea8a?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/e87fd975-07dd-46d3-8654-932b25d5119b?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/4bc4edbd-f9cc-4164-9851-83aba1320599?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/1fa44c2d-9245-4f63-a64c-7310a6586620?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/a8353472-2086-4eb4-9855-b110fcb154f6?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/7a4ec4c8-d39d-401a-91b1-94289d181bfa?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/c0beea94-2930-43ec-874b-203c8519ea8a?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/api/stream/live?source=NSE%2CPIB%2CRBI%2CSEBI",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "realFailures": []
+  },
+  "verdict": {
+    "status": "ISSUES FOUND",
+    "issues": [
+      "Mobile NSE/feed card width is only 166px, so rendering is squeezed.",
+      "/admin is publicly accessible."
+    ]
+  }
+}
