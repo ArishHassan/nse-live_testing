@@ -1,0 +1,264 @@
+{
+  "run": {
+    "now": "2026-05-28T07:06:37.155Z",
+    "local": "28 May 2026, 12:36:37",
+    "stamp": "2026-05-28T07-06-37-155Z"
+  },
+  "baseUrl": "https://sameer-local-azure.sameersaurabh.xyz",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "ms": 1732,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Live Feed DISCONNECTED 0 events ALL0 NSE0 PIB0 RBI0 SEBI0 No events yet. Run the pipeline to ingest data."
+    },
+    {
+      "route": "/settings",
+      "status": 200,
+      "ms": 1839,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Settings Configure how the live feed behaves for this browser. Settings are stored locally (no account required). SOURCE SUBSCRIPTIONS Pick which sources appear in your live "
+    },
+    {
+      "route": "/monitoring",
+      "status": 200,
+      "ms": 1282,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Monitoring WIRE EVENTS 5,142 ACTIVE SOURCES 4 PIB RECORDS 214 NSE RECORDS 5,037 RBI RECORDS 47 SEBI RECORDS 71 SOURCE HEALTH SOURCE EVENTS CATEGORIES LATEST EVENT FIRST EVENT"
+    },
+    {
+      "route": "/admin",
+      "status": 200,
+      "ms": 1302,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Admin — Source Configuration NSE ENABLED Updated 27/5/2026, 8:48:24 pm by admin-api FETCH STRATEGY PARSER STRATEGY SCHEDULE — ACTIVE WINDOW Start → End Cadence (s) IDLE CADEN"
+    }
+  ],
+  "adminPublic": true,
+  "feed": {
+    "initial": {
+      "label": "initial",
+      "statusText": "LIVE",
+      "eventCount": 99,
+      "eventLinkCount": 99,
+      "nseEventCount": 25,
+      "nonNseVisibleCount": 74,
+      "newestNse": {
+        "href": "https://sameer-local-azure.sameersaurabh.xyz/event/3f65b93f-2895-43dd-b443-10d58b29da47",
+        "text": "NSE NSE-equities [en] FCSSOFT Outcome of Board Meeting FCS Software Solutions Limited has submitted to the Exchange, the financial results for the period ended March 31, 2026. lang:en segment:equities industry:Computers - Software 12:34:37 28 May 2026",
+        "isNse": true
+      },
+      "buttons": [
+        {
+          "text": "ALL99",
+          "title": "Show all subscribed sources",
+          "ariaLabel": ""
+        },
+        {
+          "text": "NSE25",
+          "title": "Show only NSE",
+          "ariaLabel": ""
+        },
+        {
+          "text": "PIB25",
+          "title": "Show only PIB",
+          "ariaLabel": ""
+        },
+        {
+          "text": "RBI24",
+          "title": "Show only RBI",
+          "ariaLabel": ""
+        },
+        {
+          "text": "SEBI25",
+          "title": "Show only SEBI",
+          "ariaLabel": ""
+        }
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "cls": 0.00017256100501543208,
+      "longTaskCount": 0,
+      "maxLongTaskMs": 0,
+      "navigation": {
+        "domContentLoadedMs": 282,
+        "loadEventMs": 282,
+        "responseEndMs": 262,
+        "transferSize": 3349,
+        "encodedBodySize": 3049,
+        "decodedBodySize": 9567
+      },
+      "feedLoadMs": 7902
+    },
+    "nseFilter": {
+      "label": "nse filter",
+      "statusText": "LIVE",
+      "eventCount": 25,
+      "eventLinkCount": 25,
+      "nseEventCount": 25,
+      "nonNseVisibleCount": 0,
+      "newestNse": {
+        "href": "https://sameer-local-azure.sameersaurabh.xyz/event/3f65b93f-2895-43dd-b443-10d58b29da47",
+        "text": "NSE NSE-equities [en] FCSSOFT Outcome of Board Meeting FCS Software Solutions Limited has submitted to the Exchange, the financial results for the period ended March 31, 2026. lang:en segment:equities industry:Computers - Software 12:34:37 28 May 2026",
+        "isNse": true
+      },
+      "buttons": [
+        {
+          "text": "ALL99",
+          "title": "Show all subscribed sources",
+          "ariaLabel": ""
+        },
+        {
+          "text": "NSE25",
+          "title": "Click to clear (show all)",
+          "ariaLabel": ""
+        },
+        {
+          "text": "PIB25",
+          "title": "Show only PIB",
+          "ariaLabel": ""
+        },
+        {
+          "text": "RBI24",
+          "title": "Show only RBI",
+          "ariaLabel": ""
+        },
+        {
+          "text": "SEBI25",
+          "title": "Show only SEBI",
+          "ariaLabel": ""
+        }
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "cls": 0.00017256100501543208,
+      "longTaskCount": 0,
+      "maxLongTaskMs": 0,
+      "navigation": {
+        "domContentLoadedMs": 282,
+        "loadEventMs": 282,
+        "responseEndMs": 262,
+        "transferSize": 3349,
+        "encodedBodySize": 3049,
+        "decodedBodySize": 9567
+      },
+      "settleMs": 2590
+    }
+  },
+  "eventDetail": {
+    "url": "https://sameer-local-azure.sameersaurabh.xyz/event/3f65b93f-2895-43dd-b443-10d58b29da47",
+    "status": 200,
+    "loadMs": 1307,
+    "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 ← Back to feed NSE NSE-equities corporate_filing [en] Outcome of Board Meeting Published: 28/5/2026, 12:34:37 pm Status: complete Kind: live ENTITY FCS Software Solutions LimitedFCSSOFTINE512B01022 FCS Software Sol"
+  },
+  "mobile": {
+    "eventLinkCount": 99,
+    "horizontalOverflow": false,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "firstEventWidth": 166,
+    "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Live Feed LIVE 99 events ALL99 NSE25 PIB25 RBI24 SEBI25 NSE NSE-equities [en] FCSSOFT Outcome of Board Meeting FCS Software Solutions Limited has submitted to the Exchange, the financial results for the period ende",
+    "screenshotPath": "reports/mobile-2026-05-28T07-06-37-155Z.png"
+  },
+  "consoleIssues": [],
+  "network": {
+    "expectedAbortions": [
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/3295e3c4-7d4c-43f7-be80-98f070b457bb?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/d2247904-6d35-4126-8839-a55ad449cf30?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/bd978a23-186e-4e36-bd2d-bbc5a9976271?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/ad9e293c-dc93-484f-b6d8-ef0e519122f4?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/api/stream/live?source=NSE%2CPIB%2CRBI%2CSEBI",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/bc58fa4f-6b36-42db-b34c-fcfb45322ca5?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/3295e3c4-7d4c-43f7-be80-98f070b457bb?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/bd978a23-186e-4e36-bd2d-bbc5a9976271?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/bc58fa4f-6b36-42db-b34c-fcfb45322ca5?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/d2247904-6d35-4126-8839-a55ad449cf30?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/3f65b93f-2895-43dd-b443-10d58b29da47?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/c154dad4-0aa6-469c-b35b-b59ba0d59feb?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/bd978a23-186e-4e36-bd2d-bbc5a9976271?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/d2247904-6d35-4126-8839-a55ad449cf30?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/bc58fa4f-6b36-42db-b34c-fcfb45322ca5?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/ad9e293c-dc93-484f-b6d8-ef0e519122f4?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/api/stream/live?source=NSE%2CPIB%2CRBI%2CSEBI",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "realFailures": []
+  },
+  "verdict": {
+    "status": "ISSUES FOUND",
+    "issues": [
+      "Mobile NSE/feed card width is only 166px, so rendering is squeezed.",
+      "/admin is publicly accessible."
+    ]
+  }
+}
