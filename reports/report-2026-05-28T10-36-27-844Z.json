@@ -1,0 +1,289 @@
+{
+  "run": {
+    "now": "2026-05-28T10:36:27.844Z",
+    "local": "28 May 2026, 16:06:27",
+    "stamp": "2026-05-28T10-36-27-844Z"
+  },
+  "baseUrl": "https://sameer-local-azure.sameersaurabh.xyz",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "ms": 11121,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Live Feed DISCONNECTED 0 events ALL0 No events yet. Run the pipeline to ingest data."
+    },
+    {
+      "route": "/settings",
+      "status": 200,
+      "ms": 2268,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Settings Configure how the live feed behaves for this browser. Settings are stored locally (no account required). SOURCE SUBSCRIPTIONS Pick which sources appear in your live "
+    },
+    {
+      "route": "/monitoring",
+      "status": 200,
+      "ms": 2116,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Monitoring Loading stats..."
+    },
+    {
+      "route": "/admin",
+      "status": 200,
+      "ms": 1789,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Admin — Source Configuration Loading..."
+    }
+  ],
+  "adminPublic": true,
+  "feed": {
+    "initial": {
+      "label": "initial",
+      "statusText": "DISCONNECTED",
+      "eventCount": 0,
+      "eventLinkCount": 0,
+      "nseEventCount": 0,
+      "nonNseVisibleCount": 0,
+      "newestNse": null,
+      "buttons": [
+        {
+          "text": "ALL0",
+          "title": "Show all subscribed sources",
+          "ariaLabel": ""
+        },
+        {
+          "text": "NSE0",
+          "title": "Show only NSE",
+          "ariaLabel": ""
+        },
+        {
+          "text": "PIB0",
+          "title": "Show only PIB",
+          "ariaLabel": ""
+        },
+        {
+          "text": "RBI0",
+          "title": "Show only RBI",
+          "ariaLabel": ""
+        },
+        {
+          "text": "SEBI0",
+          "title": "Show only SEBI",
+          "ariaLabel": ""
+        }
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "cls": 0,
+      "longTaskCount": 0,
+      "maxLongTaskMs": 0,
+      "navigation": {
+        "domContentLoadedMs": 1023,
+        "loadEventMs": 1024,
+        "responseEndMs": 998,
+        "transferSize": 3349,
+        "encodedBodySize": 3049,
+        "decodedBodySize": 9567
+      },
+      "feedLoadMs": 8594
+    },
+    "nseFilter": {
+      "label": "nse filter",
+      "statusText": "DISCONNECTED",
+      "eventCount": 0,
+      "eventLinkCount": 0,
+      "nseEventCount": 0,
+      "nonNseVisibleCount": 0,
+      "newestNse": null,
+      "buttons": [
+        {
+          "text": "ALL0",
+          "title": "Show all subscribed sources",
+          "ariaLabel": ""
+        },
+        {
+          "text": "NSE0",
+          "title": "Click to clear (show all)",
+          "ariaLabel": ""
+        },
+        {
+          "text": "PIB0",
+          "title": "Show only PIB",
+          "ariaLabel": ""
+        },
+        {
+          "text": "RBI0",
+          "title": "Show only RBI",
+          "ariaLabel": ""
+        },
+        {
+          "text": "SEBI0",
+          "title": "Show only SEBI",
+          "ariaLabel": ""
+        }
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "cls": 0,
+      "longTaskCount": 0,
+      "maxLongTaskMs": 0,
+      "navigation": {
+        "domContentLoadedMs": 1023,
+        "loadEventMs": 1024,
+        "responseEndMs": 998,
+        "transferSize": 3349,
+        "encodedBodySize": 3049,
+        "decodedBodySize": 9567
+      },
+      "settleMs": 2551
+    }
+  },
+  "eventDetail": null,
+  "mobile": {
+    "eventLinkCount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "firstEventWidth": null,
+    "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Live Feed DISCONNECTED 0 events ALL0 No events yet. Run the pipeline to ingest data.",
+    "screenshotPath": "reports/mobile-2026-05-28T10-36-27-844Z.png"
+  },
+  "consoleIssues": [
+    {
+      "type": "error",
+      "text": "TypeError: Failed to fetch\n    at e (https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0330gm6~4xhd~.js:1:8098)\n    at https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0330gm6~4xhd~.js:1:8219\n    at iv (https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0rliqmdz-itj..js:1:102972)\n    at up (https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0rliqmdz-itj..js:1:127011)\n    at ud (https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0rliqmdz-itj..js:1:126673)\n    at up (https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0rliqmdz-itj..js:1:126991)\n    at ud (https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0rliqmdz-itj..js:1:126673)\n    at up (https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0rliqmdz-itj..js:1:127056)\n    at ud (https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0rliqmdz-itj..js:1:126673)\n    at up (https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0rliqmdz-itj..js:1:127056)"
+    },
+    {
+      "type": "error",
+      "text": "TypeError: Failed to fetch\n    at https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0w3h3qz0xhj2x.js:1:7846\n    at https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0w3h3qz0xhj2x.js:1:10561\n    at iv (https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0rliqmdz-itj..js:1:102972)\n    at up (https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0rliqmdz-itj..js:1:127011)\n    at ud (https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0rliqmdz-itj..js:1:126673)\n    at up (https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0rliqmdz-itj..js:1:126991)\n    at ud (https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0rliqmdz-itj..js:1:126673)\n    at up (https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0rliqmdz-itj..js:1:127056)\n    at ud (https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0rliqmdz-itj..js:1:126673)\n    at up (https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0rliqmdz-itj..js:1:127056)"
+    }
+  ],
+  "network": {
+    "expectedAbortions": [
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/admin?_rsc=Y_CzAqwLPQt_TUNh",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/admin?_rsc=3glebuAfGyyzB-5k",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/admin?_rsc=7h4NYy5eoyMcNlUN",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/monitoring?_rsc=7h4NYy5eoyMcNlUN",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/api/admin/sources",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/monitoring?_rsc=QfvJiv5GVPJwP-5T",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/monitoring?_rsc=ldOHirlC-lQxEqS4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/admin?_rsc=uKPKlQ_TKdrmr4LA",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/admin?_rsc=eFYkw0bX8SncomWp",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/settings?_rsc=vBYmDZOQf4eMhPz6",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/api/monitoring/sources",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/api/monitoring/stats",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/admin?_rsc=vBYmDZOQf4eMhPz6",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/monitoring?_rsc=K2bXGeSTw0QTYV7H",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/monitoring?_rsc=8ve0zUx802lqmtax",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/monitoring?_rsc=SuwNieirTffA7Ny2",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/monitoring?_rsc=YtmFAUf2kMkPYB5X",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/api/admin/sources",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/admin?_rsc=uVAav7xIzoYEEQxA",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/admin?_rsc=5jIkawULtuRaZS5W",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/5fc6b349-1b4d-44f1-8495-b113a0f9d676?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/adfb571a-2105-499a-9ddd-2c3da4889b40?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "realFailures": []
+  },
+  "verdict": {
+    "status": "ISSUES FOUND",
+    "issues": [
+      "Feed status is DISCONNECTED, expected LIVE.",
+      "Live feed rendered no event links.",
+      "No NSE events were visible in the live feed.",
+      "NSE filter rendered no event links.",
+      "2 console warning/error(s) detected.",
+      "/admin is publicly accessible."
+    ]
+  }
+}
