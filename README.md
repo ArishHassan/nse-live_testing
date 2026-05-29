@@ -24,6 +24,16 @@ npm run monitor
 
 Reports are saved under `reports/` as Markdown, JSON, and a mobile screenshot.
 
+## Lightweight Uptime Check
+
+For a simple external crash check, run:
+
+```bash
+npm run uptime
+```
+
+The `Frontend Uptime Check` GitHub Actions workflow runs every 5 minutes. It fetches the root URL, verifies the HTTP status is in the OK range, checks expected frontend text markers, saves Markdown/JSON reports under `uptime-reports/`, and fails the workflow if the frontend stops responding correctly.
+
 ## Run While Your Laptop Is Closed
 
 Push this folder to a GitHub repository. The included GitHub Actions workflow runs on GitHub servers, so your laptop does not need to be open.
