@@ -1,0 +1,67 @@
+name: Frontend Uptime Check
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
+concurrency:
+  group: frontend-uptime-check
+  cancel-in-progress: false
+
+jobs:
+  uptime:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Run frontend uptime check
+        id: uptime
+        continue-on-error: true
+        env:
+          FRONTEND_URL: "https://sameer-local-azure.sameersaurabh.xyz/"
+          REPORT_TIMEZONE: "Asia/Kolkata"
+          UPTIME_REPORT_DIR: "uptime-reports"
+          EXPECTED_TEXTS: "MediaAnalytics,Live Feed"
+          UPTIME_TIMEOUT_MS: "15000"
+        run: npm run uptime
+
+      - name: Upload uptime report artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontend-uptime-report-${{ github.run_id }}
+          path: uptime-reports/
+          if-no-files-found: error
+
+      - name: Commit uptime report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add uptime-reports/
+          if git diff --cached --quiet; then
+            echo "No uptime report changes to commit."
+          else
+            git commit -m "Add frontend uptime report"
+            git pull --rebase
+            git push
+          fi
+
+      - name: Fail workflow if uptime check failed
+        if: steps.uptime.outcome == 'failure'
+        run: exit 1
