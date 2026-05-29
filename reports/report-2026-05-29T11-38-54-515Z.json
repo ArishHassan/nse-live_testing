@@ -1,0 +1,249 @@
+{
+  "run": {
+    "now": "2026-05-29T11:38:54.515Z",
+    "local": "29 May 2026, 17:08:54",
+    "stamp": "2026-05-29T11-38-54-515Z"
+  },
+  "baseUrl": "https://sameer-local-azure.sameersaurabh.xyz",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "ms": 2097,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Live Feed DISCONNECTED 0 events ALL0 NSE0 PIB0 RBI0 SEBI0 No events yet. Run the pipeline to ingest data."
+    },
+    {
+      "route": "/settings",
+      "status": 200,
+      "ms": 1790,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Settings Configure how the live feed behaves for this browser. Settings are stored locally (no account required). SOURCE SUBSCRIPTIONS Pick which sources appear in your live "
+    },
+    {
+      "route": "/monitoring",
+      "status": 200,
+      "ms": 1275,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Monitoring WIRE EVENTS 364 ACTIVE SOURCES 4 PIB RECORDS 36 NSE RECORDS 283 RBI RECORDS 20 SEBI RECORDS 30 SOURCE HEALTH SOURCE EVENTS CATEGORIES LATEST EVENT FIRST EVENT NSE "
+    },
+    {
+      "route": "/admin",
+      "status": 200,
+      "ms": 1290,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Admin — Source Configuration NSE ENABLED Updated 29/5/2026, 5:07:44 pm by admin-api FETCH STRATEGY PARSER STRATEGY SCHEDULE — ACTIVE WINDOW Start → End Cadence (s) IDLE CADEN"
+    }
+  ],
+  "adminPublic": true,
+  "feed": {
+    "initial": {
+      "label": "initial",
+      "statusText": "LIVE",
+      "eventCount": 118,
+      "eventLinkCount": 118,
+      "nseEventCount": 48,
+      "nonNseVisibleCount": 70,
+      "newestNse": {
+        "href": "https://sameer-local-azure.sameersaurabh.xyz/event/771871cd-787f-443e-a96f-3147f8e24170",
+        "text": "NSE NSE-equities [en] PFC General Updates Transfer of TUMKUR II RE Transmission Limited (wholly owned subsidiary of PFC Consulting Limited) (wholly owned subsidiary of Power Finance Corporation Limited) lang:en segment:equities industry:Financial Institution 17:08:10 29 May 2026",
+        "isNse": true
+      },
+      "buttons": [
+        {
+          "text": "ALL118",
+          "title": "Show all subscribed sources",
+          "ariaLabel": ""
+        },
+        {
+          "text": "NSE48",
+          "title": "Show only NSE",
+          "ariaLabel": ""
+        },
+        {
+          "text": "PIB25",
+          "title": "Show only PIB",
+          "ariaLabel": ""
+        },
+        {
+          "text": "RBI20",
+          "title": "Show only RBI",
+          "ariaLabel": ""
+        },
+        {
+          "text": "SEBI25",
+          "title": "Show only SEBI",
+          "ariaLabel": ""
+        }
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "cls": 0.00022253543555491255,
+      "longTaskCount": 0,
+      "maxLongTaskMs": 0,
+      "navigation": {
+        "domContentLoadedMs": 290,
+        "loadEventMs": 291,
+        "responseEndMs": 275,
+        "transferSize": 3351,
+        "encodedBodySize": 3051,
+        "decodedBodySize": 9567
+      },
+      "feedLoadMs": 7916
+    },
+    "nseFilter": {
+      "label": "nse filter",
+      "statusText": "LIVE",
+      "eventCount": 48,
+      "eventLinkCount": 48,
+      "nseEventCount": 48,
+      "nonNseVisibleCount": 0,
+      "newestNse": {
+        "href": "https://sameer-local-azure.sameersaurabh.xyz/event/771871cd-787f-443e-a96f-3147f8e24170",
+        "text": "NSE NSE-equities [en] PFC General Updates Transfer of TUMKUR II RE Transmission Limited (wholly owned subsidiary of PFC Consulting Limited) (wholly owned subsidiary of Power Finance Corporation Limited) lang:en segment:equities industry:Financial Institution 17:08:10 29 May 2026",
+        "isNse": true
+      },
+      "buttons": [
+        {
+          "text": "ALL118",
+          "title": "Show all subscribed sources",
+          "ariaLabel": ""
+        },
+        {
+          "text": "NSE48",
+          "title": "Click to clear (show all)",
+          "ariaLabel": ""
+        },
+        {
+          "text": "PIB25",
+          "title": "Show only PIB",
+          "ariaLabel": ""
+        },
+        {
+          "text": "RBI20",
+          "title": "Show only RBI",
+          "ariaLabel": ""
+        },
+        {
+          "text": "SEBI25",
+          "title": "Show only SEBI",
+          "ariaLabel": ""
+        }
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "cls": 0.00022253543555491255,
+      "longTaskCount": 0,
+      "maxLongTaskMs": 0,
+      "navigation": {
+        "domContentLoadedMs": 290,
+        "loadEventMs": 291,
+        "responseEndMs": 275,
+        "transferSize": 3351,
+        "encodedBodySize": 3051,
+        "decodedBodySize": 9567
+      },
+      "settleMs": 2591
+    }
+  },
+  "eventDetail": {
+    "url": "https://sameer-local-azure.sameersaurabh.xyz/event/771871cd-787f-443e-a96f-3147f8e24170",
+    "status": 200,
+    "loadMs": 1353,
+    "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 ← Back to feed NSE NSE-equities corporate_filing [en] General Updates Published: 29/5/2026, 5:08:10 pm Status: complete Kind: live ENTITY Power Finance Corporation LimitedPFCINE134E01011 Transfer of TUMKUR II RE Tr"
+  },
+  "mobile": {
+    "eventLinkCount": 118,
+    "horizontalOverflow": false,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "firstEventWidth": 166,
+    "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Live Feed LIVE 118 events ALL118 NSE48 PIB25 RBI20 SEBI25 NSE NSE-equities [en] PFC General Updates Transfer of TUMKUR II RE Transmission Limited (wholly owned subsidiary of PFC Consulting Limited) (wholly owned su",
+    "screenshotPath": "reports/mobile-2026-05-29T11-38-54-515Z.png"
+  },
+  "consoleIssues": [],
+  "network": {
+    "expectedAbortions": [
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/?_rsc=8nTjltbQWvg6NcbE",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/api/wire/events?source=NSE%2CPIB%2CRBI%2CSEBI&date=today",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/7d09b13b-a797-454f-a238-b9a8c887c7b7?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/771871cd-787f-443e-a96f-3147f8e24170?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/3e30a1f0-bff9-49b3-aca1-e8ecbb00a86e?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/7c8e207e-a573-41cb-9b97-87547056951b?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/7d09b13b-a797-454f-a238-b9a8c887c7b7?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/7c8e207e-a573-41cb-9b97-87547056951b?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/dd73122f-b1f5-47b4-9b58-7969694d9234?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/af69c054-0b08-4812-af1d-645954990147?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/3e30a1f0-bff9-49b3-aca1-e8ecbb00a86e?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/771871cd-787f-443e-a96f-3147f8e24170?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/5b187e73-c83b-4d49-8a9a-b79e857d8071?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/api/stream/live?source=NSE%2CPIB%2CRBI%2CSEBI",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "realFailures": []
+  },
+  "verdict": {
+    "status": "ISSUES FOUND",
+    "issues": [
+      "Mobile NSE/feed card width is only 166px, so rendering is squeezed.",
+      "/admin is publicly accessible."
+    ]
+  }
+}
