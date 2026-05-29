@@ -1,0 +1,274 @@
+{
+  "run": {
+    "now": "2026-05-29T10:50:55.606Z",
+    "local": "29 May 2026, 16:20:55",
+    "stamp": "2026-05-29T10-50-55-606Z"
+  },
+  "baseUrl": "https://sameer-local-azure.sameersaurabh.xyz",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "ms": 2756,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Live Feed DISCONNECTED 0 events ALL0 NSE0 PIB0 RBI0 SEBI0 No events yet. Run the pipeline to ingest data."
+    },
+    {
+      "route": "/settings",
+      "status": 200,
+      "ms": 2451,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Settings Configure how the live feed behaves for this browser. Settings are stored locally (no account required). SOURCE SUBSCRIPTIONS Pick which sources appear in your live "
+    },
+    {
+      "route": "/monitoring",
+      "status": 200,
+      "ms": 1266,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Monitoring WIRE EVENTS 198 ACTIVE SOURCES 4 PIB RECORDS 28 NSE RECORDS 123 RBI RECORDS 20 SEBI RECORDS 30 SOURCE HEALTH SOURCE EVENTS CATEGORIES LATEST EVENT FIRST EVENT NSE "
+    },
+    {
+      "route": "/admin",
+      "status": 200,
+      "ms": 1274,
+      "title": "MediaAnalytics Wire Feed",
+      "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Admin — Source Configuration NSE ENABLED Updated 29/5/2026, 4:09:44 pm by admin-api FETCH STRATEGY PARSER STRATEGY SCHEDULE — ACTIVE WINDOW Start → End Cadence (s) IDLE CADEN"
+    }
+  ],
+  "adminPublic": true,
+  "feed": {
+    "initial": {
+      "label": "initial",
+      "statusText": "LIVE",
+      "eventCount": 117,
+      "eventLinkCount": 117,
+      "nseEventCount": 47,
+      "nonNseVisibleCount": 70,
+      "newestNse": {
+        "href": "https://sameer-local-azure.sameersaurabh.xyz/event/97286d9b-2083-450a-a5c4-dfde5015324c",
+        "text": "NSE NSE-sme [en] TBI Analysts/Institutional Investor Meet/Con. Call Updates TBI Corn Limited has informed the Exchange about Schedule of meet lang:en segment:sme 16:18:46 29 May 2026",
+        "isNse": true
+      },
+      "buttons": [
+        {
+          "text": "ALL117",
+          "title": "Show all subscribed sources",
+          "ariaLabel": ""
+        },
+        {
+          "text": "NSE47",
+          "title": "Show only NSE",
+          "ariaLabel": ""
+        },
+        {
+          "text": "PIB25",
+          "title": "Show only PIB",
+          "ariaLabel": ""
+        },
+        {
+          "text": "RBI20",
+          "title": "Show only RBI",
+          "ariaLabel": ""
+        },
+        {
+          "text": "SEBI25",
+          "title": "Show only SEBI",
+          "ariaLabel": ""
+        }
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "cls": 0.00022253543555491255,
+      "longTaskCount": 0,
+      "maxLongTaskMs": 0,
+      "navigation": {
+        "domContentLoadedMs": 261,
+        "loadEventMs": 261,
+        "responseEndMs": 241,
+        "transferSize": 3351,
+        "encodedBodySize": 3051,
+        "decodedBodySize": 9567
+      },
+      "feedLoadMs": 7879
+    },
+    "nseFilter": {
+      "label": "nse filter",
+      "statusText": "LIVE",
+      "eventCount": 47,
+      "eventLinkCount": 47,
+      "nseEventCount": 47,
+      "nonNseVisibleCount": 0,
+      "newestNse": {
+        "href": "https://sameer-local-azure.sameersaurabh.xyz/event/97286d9b-2083-450a-a5c4-dfde5015324c",
+        "text": "NSE NSE-sme [en] TBI Analysts/Institutional Investor Meet/Con. Call Updates TBI Corn Limited has informed the Exchange about Schedule of meet lang:en segment:sme 16:18:46 29 May 2026",
+        "isNse": true
+      },
+      "buttons": [
+        {
+          "text": "ALL117",
+          "title": "Show all subscribed sources",
+          "ariaLabel": ""
+        },
+        {
+          "text": "NSE47",
+          "title": "Click to clear (show all)",
+          "ariaLabel": ""
+        },
+        {
+          "text": "PIB25",
+          "title": "Show only PIB",
+          "ariaLabel": ""
+        },
+        {
+          "text": "RBI20",
+          "title": "Show only RBI",
+          "ariaLabel": ""
+        },
+        {
+          "text": "SEBI25",
+          "title": "Show only SEBI",
+          "ariaLabel": ""
+        }
+      ],
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "cls": 0.00022253543555491255,
+      "longTaskCount": 0,
+      "maxLongTaskMs": 0,
+      "navigation": {
+        "domContentLoadedMs": 261,
+        "loadEventMs": 261,
+        "responseEndMs": 241,
+        "transferSize": 3351,
+        "encodedBodySize": 3051,
+        "decodedBodySize": 9567
+      },
+      "settleMs": 2589
+    }
+  },
+  "eventDetail": {
+    "url": "https://sameer-local-azure.sameersaurabh.xyz/event/97286d9b-2083-450a-a5c4-dfde5015324c",
+    "status": 200,
+    "loadMs": 2016,
+    "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 ← Back to feed NSE NSE-sme corporate_filing [en] Analysts/Institutional Investor Meet/Con. Call Updates Published: 29/5/2026, 4:18:46 pm Status: complete Kind: live ENTITY TBI Corn LimitedTBI TBI Corn Limited has i"
+  },
+  "mobile": {
+    "eventLinkCount": 117,
+    "horizontalOverflow": false,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "firstEventWidth": 166,
+    "bodySample": "MediaAnalyticsAlerts INTELLIGENCE TERMINAL Live Feed Settings Monitoring Admin v0.1.0 Live Feed LIVE 117 events ALL117 NSE47 PIB25 RBI20 SEBI25 NSE NSE-sme [en] TBI Analysts/Institutional Investor Meet/Con. Call Updates TBI Corn Limited has informed the Exchange about Schedule of meet lang:en segmen",
+    "screenshotPath": "reports/mobile-2026-05-29T10-50-55-606Z.png"
+  },
+  "consoleIssues": [],
+  "network": {
+    "expectedAbortions": [
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/5cbfdea1-927b-4e59-b7fb-11941ddb458c?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/95698735-2cf5-4f90-ae78-6848c7f09d6c?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/2e44d785-67ce-47f2-bff4-56b8e4a3a79e?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0w3h3qz0xhj2x.js",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0330gm6~4xhd~.js",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/api/stream/live?source=NSE%2CPIB%2CRBI%2CSEBI",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/2eb7fa8b-6d53-4954-9432-b06a84b80404?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/_next/static/media/bbc41e54d2fcbd21-s.0mvwgmnhv29no.woff2",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/settings?_rsc=STmVY4j0xRDbRMWT",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/_next/static/chunks/0w3h3qz0xhj2x.js",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/?_rsc=DQxjArDrgutTG17x",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/5cbfdea1-927b-4e59-b7fb-11941ddb458c?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/2e44d785-67ce-47f2-bff4-56b8e4a3a79e?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/95698735-2cf5-4f90-ae78-6848c7f09d6c?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/9731e441-d554-4935-b12e-4f79146430ee?_rsc=5CB68i4pnAekjehf",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/6904f739-ee0c-4503-83d2-d98740b289b2?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/5cbfdea1-927b-4e59-b7fb-11941ddb458c?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/event/9731e441-d554-4935-b12e-4f79146430ee?_rsc=tXyZJ52UQVBCVsD3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "method": "GET",
+        "url": "https://sameer-local-azure.sameersaurabh.xyz/api/stream/live?source=NSE%2CPIB%2CRBI%2CSEBI",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "realFailures": []
+  },
+  "verdict": {
+    "status": "ISSUES FOUND",
+    "issues": [
+      "Mobile NSE/feed card width is only 166px, so rendering is squeezed.",
+      "/admin is publicly accessible."
+    ]
+  }
+}
