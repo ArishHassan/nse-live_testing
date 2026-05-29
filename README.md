@@ -32,7 +32,7 @@ For a simple external crash check, run:
 npm run uptime
 ```
 
-The `Frontend Uptime Check` GitHub Actions workflow runs every 5 minutes. It fetches the root URL, verifies the HTTP status is in the OK range, checks expected frontend text markers, saves Markdown/JSON reports under `uptime-reports/`, and fails the workflow if the frontend stops responding correctly.
+The `Frontend Uptime Check` GitHub Actions workflow validates the frontend every 5 minutes. To avoid GitHub dropping high-frequency `*/5` scheduled dispatches, the workflow starts hourly and performs twelve checks spaced 5 minutes apart inside the job. It fetches the root URL, verifies the HTTP status is in the OK range, checks expected frontend text markers, saves Markdown/JSON reports under `uptime-reports/`, and fails the workflow if the frontend stops responding correctly.
 
 ## Run While Your Laptop Is Closed
 
