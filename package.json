@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "monitor": "node scripts/website-monitor.js"
+    "monitor": "node scripts/website-monitor.js",
+    "uptime": "node scripts/frontend-uptime-check.js"
   },
   "keywords": [],
   "author": "",
