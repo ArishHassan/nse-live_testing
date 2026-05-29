@@ -3,7 +3,9 @@ name: Frontend Uptime Check
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/5 * * * *"
+    # GitHub scheduled workflows can skip high-frequency */5 dispatches.
+    # Run hourly and perform twelve 5-minute checks inside the job instead.
+    - cron: "0 * * * *"
 
 permissions:
   contents: write
@@ -18,7 +20,7 @@ concurrency:
 jobs:
   uptime:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 70
 
     steps:
       - name: Check out repository
@@ -38,7 +40,25 @@ jobs:
           UPTIME_REPORT_DIR: "uptime-reports"
           EXPECTED_TEXTS: "MediaAnalytics,Live Feed"
           UPTIME_TIMEOUT_MS: "15000"
-        run: npm run uptime
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            checks=12
+          else
+            checks=1
+          fi
+
+          failed=0
+          for i in $(seq 1 "$checks"); do
+            echo "Running uptime check $i of $checks"
+            npm run uptime || failed=1
+
+            if [ "$i" -lt "$checks" ]; then
+              echo "Sleeping 5 minutes before next uptime check"
+              sleep 300
+            fi
+          done
+
+          exit "$failed"
 
       - name: Upload uptime report artifact
         if: always()
