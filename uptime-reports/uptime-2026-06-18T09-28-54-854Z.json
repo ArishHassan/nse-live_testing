@@ -1,0 +1,31 @@
+{
+  "run": {
+    "iso": "2026-06-18T09:28:54.854Z",
+    "stamp": "2026-06-18T09-28-54-854Z",
+    "local": "18 Jun 2026, 14:58:54"
+  },
+  "timeZone": "Asia/Kolkata",
+  "url": "https://sameer-local-azure.sameersaurabh.xyz/",
+  "okStatusRange": {
+    "min": 200,
+    "max": 399
+  },
+  "expectedTexts": [
+    "MediaAnalytics",
+    "Live Feed"
+  ],
+  "markerResults": {
+    "MediaAnalytics": true,
+    "Live Feed": true
+  },
+  "errors": [],
+  "ok": true,
+  "responseMs": 859,
+  "status": 200,
+  "statusText": "OK",
+  "finalUrl": "https://sameer-local-azure.sameersaurabh.xyz/",
+  "contentType": "text/html; charset=utf-8",
+  "bodyBytes": 9987,
+  "statusOk": true,
+  "markersOk": true
+}
