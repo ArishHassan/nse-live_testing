@@ -1,0 +1,28 @@
+{
+  "run": {
+    "iso": "2026-06-18T12:28:26.462Z",
+    "stamp": "2026-06-18T12-28-26-462Z",
+    "local": "18 Jun 2026, 17:58:26"
+  },
+  "timeZone": "Asia/Kolkata",
+  "url": "https://sameer-local-azure.sameersaurabh.xyz/",
+  "okStatusRange": {
+    "min": 200,
+    "max": 399
+  },
+  "expectedTexts": [
+    "MediaAnalytics",
+    "Live Feed"
+  ],
+  "markerResults": {},
+  "errors": [
+    "Request failed: timeout after 15000ms"
+  ],
+  "ok": false,
+  "responseMs": 15005,
+  "status": null,
+  "contentType": "",
+  "bodyBytes": 0,
+  "statusOk": false,
+  "markersOk": false
+}
