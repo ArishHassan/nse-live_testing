@@ -1,0 +1,33 @@
+{
+  "run": {
+    "iso": "2026-07-15T20:41:05.171Z",
+    "stamp": "2026-07-15T20-41-05-171Z",
+    "local": "16 Jul 2026, 02:11:05"
+  },
+  "timeZone": "Asia/Kolkata",
+  "url": "https://sameer-local-azure.sameersaurabh.xyz/",
+  "okStatusRange": {
+    "min": 200,
+    "max": 399
+  },
+  "expectedTexts": [
+    "MediaAnalytics",
+    "Live Feed"
+  ],
+  "markerResults": {
+    "MediaAnalytics": true,
+    "Live Feed": false
+  },
+  "errors": [
+    "Missing expected frontend marker(s): Live Feed."
+  ],
+  "ok": false,
+  "responseMs": 859,
+  "status": 200,
+  "statusText": "OK",
+  "finalUrl": "https://sameer-local-azure.sameersaurabh.xyz/",
+  "contentType": "text/html; charset=utf-8",
+  "bodyBytes": 8865,
+  "statusOk": true,
+  "markersOk": false
+}
