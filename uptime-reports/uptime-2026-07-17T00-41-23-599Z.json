@@ -1,0 +1,34 @@
+{
+  "run": {
+    "iso": "2026-07-17T00:41:23.599Z",
+    "stamp": "2026-07-17T00-41-23-599Z",
+    "local": "17 Jul 2026, 06:11:23"
+  },
+  "timeZone": "Asia/Kolkata",
+  "url": "https://sameer-local-azure.sameersaurabh.xyz/",
+  "okStatusRange": {
+    "min": 200,
+    "max": 399
+  },
+  "expectedTexts": [
+    "MediaAnalytics",
+    "Live Feed"
+  ],
+  "markerResults": {
+    "MediaAnalytics": false,
+    "Live Feed": false
+  },
+  "errors": [
+    "HTTP status 530 is outside the accepted range.",
+    "Missing expected frontend marker(s): MediaAnalytics, Live Feed."
+  ],
+  "ok": false,
+  "responseMs": 105,
+  "status": 530,
+  "statusText": "<none>",
+  "finalUrl": "https://sameer-local-azure.sameersaurabh.xyz/",
+  "contentType": "text/html; charset=UTF-8",
+  "bodyBytes": 7700,
+  "statusOk": false,
+  "markersOk": false
+}
