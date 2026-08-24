@@ -1,0 +1,33 @@
+{
+  "run": {
+    "iso": "2026-08-23T23:27:33.608Z",
+    "stamp": "2026-08-23T23-27-33-608Z",
+    "local": "24 Aug 2026, 04:57:33"
+  },
+  "timeZone": "Asia/Kolkata",
+  "url": "https://sameer-local-azure.sameersaurabh.xyz/",
+  "okStatusRange": {
+    "min": 200,
+    "max": 399
+  },
+  "expectedTexts": [
+    "MediaAnalytics",
+    "Live Feed"
+  ],
+  "markerResults": {
+    "MediaAnalytics": true,
+    "Live Feed": false
+  },
+  "errors": [
+    "Missing expected frontend marker(s): Live Feed."
+  ],
+  "ok": false,
+  "responseMs": 1105,
+  "status": 200,
+  "statusText": "OK",
+  "finalUrl": "https://dashboard.mediasignal.live/",
+  "contentType": "text/html; charset=utf-8",
+  "bodyBytes": 9603,
+  "statusOk": true,
+  "markersOk": false
+}
