@@ -1,0 +1,28 @@
+{
+  "run": {
+    "iso": "2026-11-05T07:40:41.346Z",
+    "stamp": "2026-11-05T07-40-41-346Z",
+    "local": "5 Nov 2026, 13:10:41"
+  },
+  "timeZone": "Asia/Kolkata",
+  "url": "https://sameer-local-azure.sameersaurabh.xyz/",
+  "okStatusRange": {
+    "min": 200,
+    "max": 399
+  },
+  "expectedTexts": [
+    "MediaAnalytics",
+    "Live Feed"
+  ],
+  "markerResults": {},
+  "errors": [
+    "Request failed: fetch failed"
+  ],
+  "ok": false,
+  "responseMs": 318,
+  "status": null,
+  "contentType": "",
+  "bodyBytes": 0,
+  "statusOk": false,
+  "markersOk": false
+}
